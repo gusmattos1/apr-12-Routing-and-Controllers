@@ -1,4 +1,10 @@
-<label for="email">email</label>
+
+<% @items.each do |item| %>
+<label for=<%= item %>><%=item%></label>
+<input type="text" name=<%= item %> id=<%= item %> class="fancy_form" >
+<br>
+<% end %>
+<!-- <label for="email">email</label>
 <input type="text" name="email" id="email" class="fancy_form" >
 
 <label for="username">username</label>
@@ -14,4 +20,4 @@
 <input type="text" name="address" id="address" class="fancy_form" >
 
 <label for="alias">alias</label>
-<input type="text" name="alias" id="alias" class="fancy_form" >
+<input type="text" name="alias" id="alias" class="fancy_form" > -->
