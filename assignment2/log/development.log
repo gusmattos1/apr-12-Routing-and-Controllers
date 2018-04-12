@@ -433,3 +433,33 @@ Processing by PagesController#secrets as HTML
 Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/secrets/magicword" for ::1 at 2018-04-12 19:50:00 -0400
+Started GET "/secrets/magicword" for ::1 at 2018-04-12 19:50:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/secrets/magicword"):
+  
+
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_gustavodemattos__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb__3996187604320924821_70243916093200 at /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.3ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gustavodemattos/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (197.0ms)
