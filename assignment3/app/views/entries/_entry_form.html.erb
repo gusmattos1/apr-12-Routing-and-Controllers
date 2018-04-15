@@ -1,0 +1,39 @@
+<style media="screen">
+  .submit input {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+  a {
+    text-decoration: none;
+    color: rgb(11, 42, 149);
+    font-weight: bold;
+  }
+
+  a:hover {
+text-decoration: underline;
+}
+
+</style>
+
+<%= form_for entry do |f| %>
+  <p>
+    <%= f.label :word %>
+    <%= f.text_field :word %>
+  </p>
+
+  <p>
+    <%= f.label :definition %>
+    <%= f.text_field :definition %>
+  </p>
+
+  <p>
+    <%= f.label :language %>
+    <%= f.text_field :language %>
+  </p>
+
+  <p class="submit">
+    <%= f.submit %>
+  </p>
+
+  <% end %>
